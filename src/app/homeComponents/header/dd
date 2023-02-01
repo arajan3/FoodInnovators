@@ -1,0 +1,361 @@
+<div class="global-header"> 
+    <div class="newpar new section"> 
+    </div> 
+    <div class="par iparys_inherited"> 
+     <div class="addScript parbase"> 
+      <meta name="google-site-verification" content="AWkJJ7Y07WfkH4_J7u0-Lxu2fDnL0R9r-vfJP4ZhwZc"> 
+     </div> 
+     <div class="global-header"> 
+      <style>
+    button{overflow:visible;border:0;font:inherit;-webkit-font-smoothing:inherit;letter-spacing:inherit;background:0;cursor:pointer;padding:0}
+</style> 
+      <nav id="aem-navbar" class="navbar navbar-expand-lg navbar-dark aem-navigation-dark"> 
+       <a href="/content/innovators-food/en/home.html" class="navbar-brand header__home-link active-tree-node"> <img src="/content/dam/food-innovators/logos/food-innovators-logo.svg" alt="Woolworths Group" class="header__logo img img-fluid"> </a> 
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation"> <span id="hamburger-menu" class="fa fa-bars"></span> </button> 
+       <div class="collapse navbar-collapse" id="navbarSupportedContent2" style="z-index:200"> 
+        <!-- Links --> 
+        <ul class="navbar-nav"> 
+         <li class="nav-item dropdown mega-dropdown"> <a href="/content/innovators-food/en/home/what-we-do.html" target="_self" class="nav-link">What we do <span class="fa fa-angle-down hidden-md hidden-lg"></span> </a> 
+          <div class="dropdown-menu mega-menu"> 
+           <div class="mega-menu-row row"> 
+            <div class="hidden-xs hidden-sm col-md-3 col-lg-3 "> 
+             <div class="sub-menu description"> 
+              <!--<h2 class="caption-header">What we do</h2>
+                                                        <p class="caption">
+                                                            Test for What we do
+                                                        </p>--> 
+              <img class="img-responsive" src="/content/dam/food-innovators/whatWeDo/nav-what-we-do.png" alt="What we do"> 
+             </div> 
+            </div> 
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"> 
+             <div class="sub-menu-contents"> 
+              <ul class="list-unstyled sub-menu-list"> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/what-we-do/kitchen-inspiration-sessions.html" target="_self"> <i class="fa fa-angle-right"></i>Kitchen Inspiration Sessions </a> </li> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/what-we-do/meet-the-team.html" target="_self"> <i class="fa fa-angle-right"></i>Meet The Team </a> </li> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/what-we-do/contact-us.html" target="_self"> <i class="fa fa-angle-right"></i>Contact Us </a> </li> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/what-we-do/innovation-chef-intern-program.html" target="_self"> <i class="fa fa-angle-right"></i>Innovation Chef Intern Program </a> </li> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/what-we-do/foodie-workshop.html" target="_self"> <i class="fa fa-angle-right"></i>Foodie Workshops </a> </li> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/what-we-do/innovationday.html" target="_self"> <i class="fa fa-angle-right"></i>Innovation Days </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+           </div> 
+          </div> </li> 
+         <div> 
+          <div class="logged-in"> 
+          </div> 
+         </div> 
+         <li class="nav-item dropdown mega-dropdown"> <a href="/content/innovators-food/en/home/cooking-school.html" target="_self" class="nav-link">Cooking School <span class="fa fa-angle-down hidden-md hidden-lg"></span> </a> 
+          <div class="dropdown-menu mega-menu"> 
+           <div class="mega-menu-row row"> 
+            <div class="hidden-xs hidden-sm col-md-3 col-lg-3 "> 
+             <div class="sub-menu description"> 
+              <!--<h2 class="caption-header">Cooking School</h2>
+                                                        <p class="caption">
+                                                            Sample Description
+                                                        </p>--> 
+              <img class="img-responsive" src="/content/dam/food-innovators/cookingClasses/classes-Nav-Image.png" alt="Cooking School"> 
+             </div> 
+            </div> 
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"> 
+             <div class="sub-menu-contents"> 
+              <ul class="list-unstyled sub-menu-list"> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/cooking-school/cooking-classes.html" target="_self"> <i class="fa fa-angle-right"></i>Cooking Classes </a> </li> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/cooking-school/team-building.html" target="_self"> <i class="fa fa-angle-right"></i>Team Building </a> </li> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/cooking-school/faqs.html" target="_self"> <i class="fa fa-angle-right"></i>Cooking Class Frequently Asked Questions </a> </li> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/cooking-school/terms-and-conditions.html" target="_self"> <i class="fa fa-angle-right"></i>Cooking Class Terms and Conditions </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+           </div> 
+          </div> </li> 
+         <div> 
+          <div class="logged-in"> 
+           <li> 
+            <div class="header__logo__wrapper header-desktop-only"> 
+             <a href="/content/innovators-food/en/home.html" class="active-tree-node"> <img src="/content/dam/food-innovators/logos/food-innovators-logo.svg" alt="Woolworths Group" class="header__logo"><span></span> </a> 
+            </div> </li> 
+          </div> 
+         </div> 
+         <li class="nav-item dropdown mega-dropdown"> <a href="/content/innovators-food/en/home/resources.html" target="_self" class="nav-link">Resources <span class="fa fa-angle-down hidden-md hidden-lg"></span> </a> 
+          <div class="dropdown-menu mega-menu"> 
+           <div class="mega-menu-row row"> 
+            <div class="hidden-xs hidden-sm col-md-3 col-lg-3 "> 
+             <div class="sub-menu description"> 
+              <!--<h2 class="caption-header">Resources</h2>
+                                                        <p class="caption">
+                                                            
+                                                        </p>--> 
+              <img class="img-responsive" src="/content/dam/food-innovators/blogimages/trends-nav-image.png" alt="Resources"> 
+             </div> 
+            </div> 
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"> 
+             <div class="sub-menu-contents"> 
+              <ul class="list-unstyled sub-menu-list"> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="https://drive.google.com/drive/folders/1E0OMGRX9GsD1BG__fIjXd8zobXEw4_Ja" target="_blank"> <i class="fa fa-angle-right"></i>Kitchen Inspiration Sessions </a> </li> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="https://drive.google.com/drive/folders/1T6K1WMJXjlnQ7r-GCcQWLjLoTO2nY_MD" target="_blank"> <i class="fa fa-angle-right"></i>Food Trends Sessions </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+           </div> 
+          </div> </li> 
+         <div> 
+          <div class="logged-in"> 
+          </div> 
+         </div> 
+         <li class="nav-item dropdown mega-dropdown"> <a href="/content/innovators-food/en/home/recipes.html" target="_self" class="nav-link">Recipes <span class="fa fa-angle-down hidden-md hidden-lg"></span> </a> 
+          <div class="dropdown-menu mega-menu"> 
+           <div class="mega-menu-row row"> 
+            <div class="hidden-xs hidden-sm col-md-3 col-lg-3 "> 
+             <div class="sub-menu description"> 
+              <!--<h2 class="caption-header">Recipes</h2>
+                                                        <p class="caption">
+                                                            
+                                                        </p>--> 
+              <img class="img-responsive" src="/content/dam/food-innovators/Recipes/Bakery/besteverspongecake.jpg" alt="Recipes"> 
+             </div> 
+            </div> 
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"> 
+             <div class="sub-menu-contents"> 
+              <ul class="list-unstyled sub-menu-list"> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/recipes/recipes-search.html?tag=foodInnovators:recipe/meal/Breakfast" target="_self"> <i class="fa fa-angle-right"></i>Breakfast </a> </li> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/recipes/recipes-search.html?tag=foodInnovators:recipe/meal/Snacks" target="_self"> <i class="fa fa-angle-right"></i>Snacks </a> </li> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/recipes/recipes-search.html?tag=foodInnovators:recipe/meal/Salads" target="_self"> <i class="fa fa-angle-right"></i>Salads </a> </li> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/recipes/recipes-search.html?tag=foodInnovators:recipe/meal/Lunch" target="_self"> <i class="fa fa-angle-right"></i>Lunch </a> </li> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/recipes/recipes-search.html?tag=foodInnovators:recipe/meal/Dinner" target="_self"> <i class="fa fa-angle-right"></i>Dinners </a> </li> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/recipes/recipes-search.html?tag=foodInnovators:recipe/meal/Dessert" target="_self"> <i class="fa fa-angle-right"></i>Desserts </a> </li> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/recipes/recipes-search.html?tag=foodInnovators:recipe/meal/Baking" target="_self"> <i class="fa fa-angle-right"></i>Baking </a> </li> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/recipes/recipes-search.html" target="_self"> <i class="fa fa-angle-right"></i>Recipes Search </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+           </div> 
+          </div> </li> 
+         <div> 
+          <div class="logged-in"> 
+          </div> 
+         </div> 
+         <li class="nav-item dropdown mega-dropdown"> <a href="/content/innovators-food/en/home/blog.html" target="_self" class="nav-link">Stories &amp; Trends <span class="fa fa-angle-down hidden-md hidden-lg"></span> </a> 
+          <div class="dropdown-menu mega-menu"> 
+           <div class="mega-menu-row row"> 
+            <div class="hidden-xs hidden-sm col-md-3 col-lg-3 "> 
+             <div class="sub-menu description"> 
+              <!--<h2 class="caption-header">Stories &amp; Trends</h2>
+                                                        <p class="caption">
+                                                            
+                                                        </p>--> 
+              <img class="img-responsive" src="/content/dam/food-innovators/whatWeDo/resources-Nav-Image.png" alt="Stories &amp; Trends"> 
+             </div> 
+            </div> 
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"> 
+             <div class="sub-menu-contents"> 
+              <ul class="list-unstyled sub-menu-list"> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/blog/stories.html" target="_self"> <i class="fa fa-angle-right"></i>Food Stories </a> </li> 
+               <li class="sub-menu-list-item"> <a class="menu-item" href="/content/innovators-food/en/home/blog/trends.html" target="_self"> <i class="fa fa-angle-right"></i>Food Trends </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+           </div> 
+          </div> </li> 
+         <div> 
+          <div class="logged-in"> 
+          </div> 
+         </div> 
+         <li class="nav-item dropdown mega-dropdown mobile-only mobile-search-item"> <a class="nav-link" href="/content/innovators-food/en/home/search.html"> <span>Search</span> <span class="mobile-search-icon"><img src="/content/dam/food-innovators/icons/search.png"></span> </a> </li> 
+         <li class="nav-item dropdown mega-dropdown button-container"> 
+          <div class="header-search-container desktop-only"> 
+           <div class="input-group"> 
+            <div class="search-promapp-aem-input parbase"> 
+             <form autocomplete="off" action="/content/innovators-food/en/home/search.html" class="search-form"> 
+              <div id="search-input" class="input-group has-feedback search-control"> 
+               <input class="form-control search autosuggest" type="text" id="solr-q-1" name="st" size="48" autocomplete="off" data-action="/content/innovators-food/en/home/search.html" placeholder="Enter your Search text...."> 
+               <a class="search-icon" href="#" onclick="headerSearchIconClickPromappAEM(this);"> <img src="/content/dam/food-innovators/icons/search.png" id="basic-addon3"> </a> 
+              </div> 
+              <img src="/content/dam/food-innovators/icons/close.png" onclick="closeSearchContainer()" class="close-search-icon"> 
+             </form> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="header is-authenticated"> 
+           <div class="header__inner"> 
+            <div class="header__logged-in js-header__logged-in"> 
+             <button class="header__logged-in__toggle js-header__logged-in__toggle"> 
+              <div> 
+               <div> 
+                <a href="/content/innovators-food/en/home.html/google_logout" class="header__logged-in__dropdown__link" x-cq-linkchecker="skip"> <span class="personalised-username header__logged-in__profile-name">Athira</span> <span class="logout_icon"><img src="/content/dam/food-innovators/icons/user-icon.png" alt="Logout"></span> </a> 
+               </div> 
+              </div> </button> 
+            </div> 
+           </div> 
+          </div> </li> 
+        </ul> 
+       </div> 
+      </nav> 
+     </div> 
+     <div class="google-tag-manager"> 
+      <script type="text/javascript">
+				var dataLayer = [];
+			</script> 
+      <!-- Google Tag Manager --> 
+      <noscript> 
+       <iframe src="//www.googletagmanager.com/ns.html?id=GTM-5GKQS6P" height="0" width="0" style="display: none; visibility: hidden"></iframe> 
+      </noscript> 
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-5GKQS6P');
+			</script> 
+      <!-- End Google Tag Manager --> 
+     </div> 
+    </div> 
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <div *ngFor="let left of header.head.leftside">
+    <li class="nav-item dropdown mega-dropdown " id="item1"> 
+     <a href="/whatWeDo"  target="_self" class="nav-link">{{left}}
+       <span style="padding: 0 30px;" class="fa fa-angle-down hidden-md hidden-lg"></span> </a> 
+     <div class="dropdown-menu mega-menu item2" > 
+      <div class="mega-menu-row row"> 
+       <div class="hidden-xs hidden-sm col-md-3 col-lg-3 "> 
+        <div class="sub-menu description"> 
+         <!--<h2 class="caption-header">What we do</h2>
+                                                   <p class="caption">
+                                                       Test for What we do
+                                                   </p>--> 
+         <img class="img-responsive" src="../../../assets/images/nav-what-we-do.png" alt="What we do"> 
+        </div> 
+       </div> 
+       <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"> 
+        <div class="sub-menu-contents"> 
+         <ul class="list-unstyled sub-menu-list" > 
+           <div *ngFor="let suhead of header.subHead">
+           <div *ngFor="let heads of suhead">
+          <li class="sub-menu-list-item"> <a class="menu-item" href="/meetTheTeam" target="_self"> <i style="padding-right: 10px;" class="fa fa-angle-right"></i>{{heads}} </a> </li> 
+         </div>
+       </div>
+       </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+   </li> 
+  
+<!-- 
+    <div> 
+     <div class="not-logged-in"> 
+     </div> 
+    </div>  -->
+
+   </div>
+
+
+
+
+
+
+
+
+   <div> 
+    <div class="not-logged-in"> 
+     <li> 
+      <div class="header__logo__wrapper header-desktop-only" (scroll)="onscroll()" [ngClass]="navbarfixed?'fixed-header-logo':'static-top'"> 
+       <a href="foodInnovators"> <img src="../../../assets/images/food-innovators-logo.svg" alt="Woolworths Group" class="header__logo"><span></span> </a> 
+      </div> </li> 
+    </div> 
+   </div> 
+   <li class="nav-item dropdown mega-dropdown"> <a href="/recipes"  target="_self" class="nav-link">Recipes <span id="navbarDropdownMenuLink3" style="padding: 0 30px;" class="fa fa-angle-down hidden-md hidden-lg"></span> </a> 
+    <div class="dropdown-menu mega-menu" aria-labelledby="navbarDropdownMenuLink3"> 
+     <div class="mega-menu-row row"> 
+      <div class="hidden-xs hidden-sm col-md-3 col-lg-3 "> 
+       <div class="sub-menu description"> 
+        <!--<h2 class="caption-header">Recipes</h2>
+                                                  <p class="caption">
+                                                      
+                                                  </p>--> 
+        <img class="img-responsive" src="../../../assets/images/besteverspongecake.jpg" alt="Recipes"> 
+       </div> 
+      </div> 
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9"> 
+       <div class="sub-menu-contents"> 
+        <ul class="list-unstyled sub-menu-list"> 
+         <li class="sub-menu-list-item"> <a class="menu-item" [routerLink]="['/recipesSearch', '7']" target="_self"> <i style="padding-right: 10px;" class="fa fa-angle-right"></i>Breakfast </a> </li> 
+         <li class="sub-menu-list-item"> <a class="menu-item" [routerLink]="['/recipesSearch', '3']"  target="_self"> <i style="padding-right: 10px;" class="fa fa-angle-right"></i>Snacks </a> </li> 
+         <li class="sub-menu-list-item"> <a class="menu-item" [routerLink]="['/recipesSearch', '5']"  target="_self"> <i style="padding-right: 10px;" class="fa fa-angle-right"></i>Salads </a> </li> 
+         <li class="sub-menu-list-item"> <a class="menu-item" [routerLink]="['/recipesSearch', '1']"  target="_self"> <i style="padding-right: 10px;" class="fa fa-angle-right"></i>Lunch </a> </li> 
+         <li class="sub-menu-list-item"> <a class="menu-item" [routerLink]="['/recipesSearch', '6']"  target="_self"> <i style="padding-right: 10px;" class="fa fa-angle-right"></i>Dinners </a> </li> 
+         <li class="sub-menu-list-item"> <a class="menu-item" [routerLink]="['/recipesSearch', '4']"  target="_self"> <i style="padding-right: 10px;" class="fa fa-angle-right"></i>Desserts </a> </li> 
+         <li class="sub-menu-list-item"> <a class="menu-item" [routerLink]="['/recipesSearch', '2']"  target="_self"> <i style="padding-right: 10px;" class="fa fa-angle-right"></i>Baking </a> </li> 
+         <li class="sub-menu-list-item"> <a class="menu-item active-tree-node" href="/content/innovators-food/en/home/recipes/recipes-search.html" target="_self"> <i style="padding-right: 10px;" class="fa fa-angle-right"></i>Recipes Search </a> </li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+    </div> </li> 
+   <div> 
+    <div class="not-logged-in"> 
+    </div> 
+   </div> 
+   <li class="nav-item dropdown mega-dropdown mobile-only mobile-search-item"> <a class="nav-link" href="/content/innovators-food/en/home/search.html"> <span>Search</span> <span class="mobile-search-icon" ><img src="../../../assets/images/search.png" (click)="openSearchContainer()"></span> </a> </li> 
+   <li class="nav-item dropdown mega-dropdown button-container"> 
+    <div class="header-search-container desktop-only"[ngClass]='filterClass' > 
+     <div class="input-group"> 
+      <div class="search-promapp-aem-input parbase"> 
+       <form autocomplete="off" action="/content/innovators-food/en/home/search.html" class="search-form"> 
+        <div id="search-input" class="input-group has-feedback search-control"> 
+         <input class="form-control search autosuggest" type="text" id="solr-q-1" name="st" size="48" autocomplete="off" data-action="/content/innovators-food/en/home/search.html" placeholder="Enter your Search text...."> 
+         <a class="search-icon"  onclick="headerSearchIconClickPromappAEM(this);"> <img (click)="openSearchContainer()" src="../../../assets/images/search.png" id="basic-addon3"> </a> 
+        </div> 
+        <img src="../../../assets/images/close.png" (click)="closeSearchContainer()" class="close-search-icon"> 
+       </form> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="header is-authenticated"> 
+     <div class="header__inner"> 
+      <div class="header__logged-in js-header__logged-in"> 
+       <button class="header__logged-in__toggle js-header__logged-in__toggle"> 
+        <div> 
+         <div> 
+          <div class="login-parsys"> 
+           <script type="text/javascript" src="https://apis.google.com/js/platform.js" gapi_processed="true"></script> 
+           <!--*Custom graphic script--> 
+
+           <div class="row login-container text-center"> 
+            <form id="loginForm" action="/content/innovators-food/en/home/recipes/recipes-search/j_google_security_check" method="POST"> 
+             <input type="hidden" name="j_g_first_name" id="j_g_first_name" value=""> 
+             <input type="hidden" name="j_g_last_name" id="j_g_last_name" value=""> 
+             <input type="hidden" name="j_g_image_url" id="j_g_image_url" value=""> 
+             <input type="hidden" name="j_g_email" id="j_g_email" value=""> 
+             <input type="hidden" name="j_g_access_token" id="j_g_access_token" value=""> 
+            </form> 
+           </div> 
+          </div> 
+         </div> 
+        </div></button> 
+       <button class="g-signin" id="loginbtn" data-callback="startApp" data-theme="dark"> <img src="../../../assets/images/user-icon.png"> Login<span></span></button> 
+      </div> 
+
+     </div> 
+    </div> </li> 

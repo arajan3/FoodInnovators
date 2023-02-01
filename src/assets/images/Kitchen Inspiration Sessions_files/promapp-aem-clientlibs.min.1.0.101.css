@@ -1,0 +1,39 @@
+.result-list-promap{cursor:pointer}
+.result-list-promap>.modal-lg{width:95%;height:90%}
+.result-list-promap>.modal-lg>.modal-content{height:98%}
+.result-list-promap>.modal-lg>.modal-content>.modal-body{height:90%}
+.searchresults{margin-top:-25px}
+.main-promapp-aem{background-color:transparent;padding-top:20px;padding-bottom:0}
+#myBtn{display:none;font-size:18px;border:0;color:white;cursor:-webkit-grab;padding:7px;border-radius:4px;float:right}
+#myBtn:hover{background-color:#555}
+.promapp-aem-top{margin-right:60px}
+.facet-items li{list-style:none}
+.promapp-aem-top>button{margin-top:-57px}
+.promapp-aem-result>.row{border-bottom:1px solid gray;margin-left:10px;margin-right:10px;padding-top:5px;padding-bottom:10px}
+.result-title>h2{margin:0 !important}
+.img-aem{float:right;padding-top:10px}
+.img-promapp{float:right;padding-top:15px}
+@media only screen and (max-width:320px){.promapp-aem-top{margin-right:0}
+.result-title>h2>a{font-size:14px !important}
+.result-title>h2{line-height:.7}
+.result-promapp{font-size:18px !important}
+.img-aem{max-width:350% !important}
+.img-promapp{max-width:350% !important}
+}
+@media only screen and (min-width:321px) and (max-width:640px){.promapp-aem-top{margin-right:0}
+.result-title>h2>a{font-size:18px !important}
+.result-title>h2{line-height:.7}
+.result-promapp{font-size:18px !important}
+.img-aem{max-width:250% !important}
+.img-promapp{max-width:250% !important}
+}
+.result-description{padding-right:15px;padding-left:15px}
+.alert-success{color:#fff}
+.panel-default{transition:all .3s ease-out;height:90vh;background-color:#e1d7ca;border-radius:5px;padding:15px;width:100%}
+.panel-default>.panel-heading{background:#fff;border-bottom:2px solid #f2ede8;margin-bottom:0;margin-top:0}
+.panel-heading{padding:10px 15px;border-bottom:1px solid transparent;border-top-left-radius:3px;border-top-right-radius:3px}
+.search-spinner{font-size:40px}
+.promapp-aem-result.card__container .card .card__image__wrapper .card__image__wrapper-top{width:100%;object-fit:cover}
+@media(max-width:767px){.panel-default{width:350px}
+.facet-container.multi-facet{width:250px}
+}

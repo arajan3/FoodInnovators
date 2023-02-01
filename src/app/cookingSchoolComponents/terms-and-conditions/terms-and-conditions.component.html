@@ -1,0 +1,68 @@
+
+
+    <!-- top navigation html -->
+
+    <div class="background-container parbase"> 
+        <div class="custom-bgcolor xxsmall-container " style="background-color:transparent;padding-top:100px;padding-bottom:--px;padding-left:--px;padding-right:--px;"> 
+         <div class="par parsys"> 
+          <div class="bread-crumb section"> 
+           <div class="breadcrumbs"> 
+            <a class="breadcrumbs__node" href="/cookingSchool">Cooking School&nbsp;</a> 
+            <svg class="breadcrumbs__chevron"> 
+              <use xlink:href="../../../assets/images/icons-sprite.svg#arrow-right"></use> 
+              <!-- <img class="breadcrumbs__chevron" src="../../../assets/images/icons-sprite.png"> -->
+              
+    
+             </svg> 
+            <strong class="breadcrumb__page">&nbsp;Cooking Class Terms and Conditions</strong> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div>
+     <!-- top navigation html -->
+
+
+<div class="background-container parbase"> 
+    <div class="custom-bgcolor xsmall-container image-banner-overlay  " style="background-image: url(/content/dam/food-innovators/yellow-xxtall-bg.png);background-size:100%;background-color:transparent;padding-top:100px;padding-bottom:200px;padding-left:--px;padding-right:--px;"> 
+     <div class="par parsys"> 
+      <div class="text-extended-auth-unauth section"> 
+       <div class="u-authenticated"> 
+        <h3 style="text-align: center;">COOKING CLASS</h3> 
+        <h1 style="text-align: center;">Terms and Conditions</h1> 
+        <h1>&nbsp;</h1> 
+       </div> 
+       <div class="u-unauthenticated"> 
+        <h3>&nbsp;</h3> 
+        <h3 style="text-align: center;">COOKING CLASS</h3> 
+        <h1 style="text-align: center;">Terms and Conditions</h1> 
+        <h1>&nbsp;</h1> 
+       </div> 
+      </div> 
+      <div class="text-extended-auth-unauth section"> 
+       <div class="u-authenticated"> 
+        <h2>Booking Conditions:</h2> 
+        <ul *ngFor="let term of terms.bookingConditions"> 
+         <li>{{term}}&nbsp;</li> 
+           </ul> 
+        <h2>&nbsp;</h2> 
+        <h2>Terms and Conditions:</h2> 
+        <ul *ngFor="let condition of terms.termsConditions"> 
+         <li>{{condition}}&nbsp;</li> 
+           </ul> 
+       </div> 
+       <div class="u-unauthenticated"> 
+        <h2>Booking Conditions:</h2> 
+        <ul *ngFor="let term of terms.bookingConditions"> 
+         <li>{{term}}&nbsp;</li> 
+           </ul> 
+        <h2>&nbsp;</h2> 
+        <h2>Terms and Conditions:</h2> 
+        <ul *ngFor="let condition of terms.termsConditions"> 
+         <li>{{condition}}&nbsp;</li> 
+           </ul> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div>

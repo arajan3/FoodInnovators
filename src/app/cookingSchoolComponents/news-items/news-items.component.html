@@ -1,0 +1,114 @@
+
+
+
+
+    <!-- top navigation html -->
+
+    <div class="background-container parbase"> 
+        <div class="custom-bgcolor xxsmall-container " style="background-color:transparent;padding-top:100px;padding-bottom:--px;padding-left:--px;padding-right:--px;"> 
+         <div class="par parsys"> 
+          <div class="bread-crumb section"> 
+           <div class="breadcrumbs"> 
+            <a class="breadcrumbs__node" href="/cookingClasses">Cooking Classes&nbsp;</a> 
+            <svg class="breadcrumbs__chevron"> 
+                <use xlink:href="../../../assets/images/icons-sprite.svg#arrow-right"></use> 
+                <!-- <img class="breadcrumbs__chevron" src="../../../assets/images/icons-sprite.png"> -->
+                
+   
+               </svg> 
+            <strong class="breadcrumb__page">&nbsp;Sri Lankan Cooking Class</strong> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div>
+     <!-- top navigation html -->
+
+
+<div> 
+  
+    <div class="content-page"> 
+     <section> 
+      <div class="xxsmall-container cooking-content-template" > 
+       <div class="row"> 
+        <div class="col-xs-12 col-md-7 col-sm-7"> 
+         <div class="card-info"> 
+          <div class="date-info"> 
+           <b>{{news.month}}</b> {{news.date}}
+          </div> 
+          <h1 class="title">{{news.Head}}</h1> 
+         </div> 
+         <h6 class="description">{{news.description}}</h6> 
+         <div class="serving-info-40 border-underline"> 
+          <p><b>You will be learning to make</b></p> 
+          <p>&nbsp;</p> 
+          <ul *ngFor="let learn of news.learntomake"> 
+
+           <li>{{learn}}</li> 
+           
+          </ul> 
+          <p>&nbsp;</p> 
+         </div> 
+         <div class="serving-info-40 border-underline"> 
+          <p style="text-align: left;">Price {{news.fees}} per person</p> 
+          <p style="text-align: left;">{{news.spot}}</p> 
+          <p style="text-align: left;">Please email us if any dietary requirements before booking to</p> 
+          <p style="text-align: left;"><a adhocenable="false" href="http://foodinnovators@woolworths.com.au">foodinnovators@woolworths.com.au</a></p> 
+          <p style="text-align: left;">&nbsp;</p> 
+         </div> 
+         <div class="text-center pad-top-100"> 
+          <a target="_blank" href="https://www.eventbrite.com/e/sri-lankan-street-food-cooking-class-tickets-68235749965" class="btn btn-outline-success">Book Now</a> 
+          <div class="pSmall pad-top-20"> 
+           <p> </p> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="col-xs-12 col-md-5 col-sm-5"> 
+         <img class="img-fluid" src={{news.image}}> 
+        </div> 
+       </div> 
+       <div class="xxsmall-container"> 
+        <div class="map-section"> 
+         <!-- https://www.embedgooglemap.net/ --> 
+         <h4 style="text-align: center;">&nbsp;</h4> 
+         <h4 style="text-align: center;" ><b>FIND US</b></h4> 
+         <h2 style="text-align: center;">Google Map</h2> 
+         <style>
+     .iframe-container{ height: 400px;width:100% }
+ @media screen and (max-width: 479px){
+ .iframe-component {
+     transform:none;
+     -webkit-transform:none;
+     }
+ 
+     }
+ @media screen and (max-width: 768px){
+ .iframe-component {
+     -webkit-transform-origin: 0 0;
+     -moz-transform-origin: 0 0;
+     -ms-transform-origin: 0 0;
+     -o-transform-origin: 0 0;
+     transform-origin: 0 0;
+     -webkit-transform: none;
+     -ms-transform: none;
+     -o-transform: none;
+     transform: none;
+ }
+ }
+ </style> 
+         <div class="inner-container iframe-loadercontainer"> 
+          <div class="wow-loader-container"> 
+           <div class="wow-loader"></div> 
+          </div> 
+          <iframe id="iframe-1238" class="iframe-component iframe-container" src="https://maps.google.com/maps?q=1%20Woolworths%20Way%2C%20Bella%20Vista%20NSW%202153%2C%20Australia&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="yes"></iframe> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </section> 
+    </div> 
+   </div>
+
+
+
+<!-- <app-cooking-classes></app-cooking-classes> -->

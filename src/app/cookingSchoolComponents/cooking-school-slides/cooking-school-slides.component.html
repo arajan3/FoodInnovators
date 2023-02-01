@@ -1,0 +1,265 @@
+<div class="background-container parbase">
+    <div class="custom-bgcolor xxsmall-container eq-height " style="background-color:transparent;padding-top:0px;padding-bottom:100px;padding-left:--px;padding-right:--px;">
+        <div class="par parsys">
+            <div class="text-extended-auth-unauth section">
+                <div class="u-authenticated">
+                    <h3 style="text-align: center;">&nbsp;</h3>
+                    <h3 style="text-align: center;">COOKING SCHOOL</h3>
+                    <h1 style="text-align: center;">All Of Our Classes</h1>
+                    <h1>&nbsp;</h1>
+                </div>
+                <div class="u-unauthenticated">
+                    <h3>&nbsp;</h3>
+                    <h3 style="text-align: center;">COOKING SCHOOL</h3>
+                    <h1 style="text-align: center;">Cooking Classes</h1>
+                    <h1>&nbsp;</h1>
+                </div>
+            </div>
+            <div class="search-aem search-promapp-aem parbase section">
+             
+                <!-- Modal -->
+                <div class="modal fade result-list-promap" id="promapModal" tabindex="-1" role="dialog" aria-labelledby="promapModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                                <h4 class="modal-title" id="promapModalLabel">{{modalTitle}}</h4>
+                            </div>
+                            <div class="modal-body">
+                                <iframe src="about:blank" width="100%" height="90%" frameborder="0" allowtransparency="true"></iframe>
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <div class="custom-bgcolor container main-promapp-aem">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12"></div>
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <div class="filter-button">
+                                <input type="button" id="openFilter" onclick="openFilterContainer();" class="btn btn-outline-success" value="+ Filters">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xxsmall-container">
+                        <div class="row">
+                            <div class="hidden-xs col-md-12 col-sm-12 col-xs-12">
+                              <div id="search-input" class="input-group has-feedback search-control" >
+                                <input class="form-control search autosuggest" type="text" id="search-input-id" name="search"  [(ngModel)]="searchText"
+                         size="48" placeholder="Search" />
+                                <div class="input-group-append">
+                                  <a href="#" onclick="searchCall('search');" style="  background-color:#000 !important;
+                                  color:#fff !important;
+                                  padding-top:8px !important;
+                                  height:100% !important;
+                                  width:100% !important;
+                                  font-size:20px !important;
+                                  border-radius:0 3px 3px 0 !important;
+                                  padding-bottom:1px !important;
+                                  border:1px solid #000 !important;
+                                  text-align:center !important;">
+                                    <i class="fa fa-search input-group-text "  id="basic-addon3"></i>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        <div class="row margin-top-20" id="search-results">
+                            <div class="col-md-3 col-sm-4 col-xs-12">
+                                <div class="main-facet">
+                                  <div class="facet-container multi-facet " [ngClass]="statusClass"  id="search-facets">
+                                    <div class="panel panel-default">
+                                      <div class="panel-heading" role="tab" id="woolworths---state_tag-panel-heading">
+                                        <input type="button" id="closeFilter" (click)="closeFilterContainer();"
+                                          class="btn btn-outline-success" value="Close" />
+                                        <div id="facet-id" role="tabpanel" aria-expanded="true">
+                                          <label>
+                                            <input type="checkbox" id="aemTagCheck" onclick="aemTagCall();"
+                                              class="facet-value-checkbox" />
+                                            <span class="text">Recipes</span>
+                                          </label>
+                                          <ul class="facet-items-aem facet-items">
+                                            <li class="facet-item" *ngFor="let item of list">
+                                              <label for="foodInnovators:recipe/meal/Breakfast">
+                                                <input type="checkbox"[(ngModel)]="item.checked" name="aemTag"
+                                                  value="foodInnovators:recipe/meal/Breakfast" (click)="checkBoxCall(item.title);"
+                                                  class="facet-value-checkbox" />
+                                                <span class="text">{{item.title}}</span>
+                                              </label>
+                                            </li>
+                                          </ul>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            <div class="col-md-9 col-sm-8 col-xs-12">
+                                <div class="search-results-group">
+                                    <div id="search-statistics" class="alert alert-success text-center">
+                                        <span>
+                                            <b>Showing all pages</b>
+                                        </span>
+                                    </div>
+                                    <div id="searchresults" class="search-results">
+                                        <!-- <div class="promapp-aem-result card__container eq-height">
+                                            <div class="card">
+                                                <div class="card__image__wrapper"><img src="../../../assets/images/75yumch-class1.jpeg" alt="Yum Cha Cooking Class" class="card__image__wrapper-top img img-fluid"></div>
+                                                <div class="card__content">
+                                                    <div>
+                                                        <div class="card__title u-unauthenticated">
+                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/yum-cha.html">
+                                                                <h5>Yum Cha Cooking Class</h5>
+                                                            </a>
+                                                        </div>
+                                                        <div class="card__title u-authenticated">
+                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/yum-cha.html"  >
+                                                                <h5>Yum Cha Cooking Class</h5>
+                                                            </a>
+                                                        </div>
+                                                        <div class="card__description">
+                                                            <p>Come and join us in this age-old Chinese tradition of Yum Cha where you will learn the culture &amp; preparation of a traditional Yum Cha table. We will show you how to make dim sum, steamed dumplings &amp; spring rolls from scratch complemented with an assortment of teas.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card__bottom u-unauthenticated">
+                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/yum-cha.html" class="btn btn-lg btn-success">View Here</a>
+                                                    </div>
+                                                    <div class="card__bottom u-authenticated">
+                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/yum-cha.html" class="btn btn-lg btn-success">View Here</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card__image__wrapper"><img src="../../../assets/images/75srilankan1.jpeg" alt="Sri Lankan Cooking Class" class="card__image__wrapper-top img img-fluid"></div>
+                                                <div class="card__content">
+                                                    <div>
+                                                        <div class="card__title u-unauthenticated">
+                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-4.html"  >
+                                                                <h5>Sri Lankan Cooking Class</h5>
+                                                            </a>
+                                                        </div>
+                                                        <div class="card__title u-authenticated">
+                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-4.html" >
+                                                                <h5>Sri Lankan Cooking Class</h5>
+                                                            </a>
+                                                        </div>
+                                                        <div class="card__description">
+                                                            <p>From a blend of spices, flavours and colours, we take you on a culinary journey through Sri Lanka for one night only! Roll up your sleeves and let’s show you how to make hoppers, dhal, roti, Sri-Lankan curry and much more!</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card__bottom u-unauthenticated">
+                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-4.html" class="btn btn-lg btn-success">View Here</a>
+                                                    </div>
+                                                    <div class="card__bottom u-authenticated">
+                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-4.html" class="btn btn-lg btn-success">View Here</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card__image__wrapper"><img src="../../../assets/images/75indian curries_n.jpeg" alt="Classic Indian Curries with Vidya Bhandarkar" class="card__image__wrapper-top img img-fluid"></div>
+                                                <div class="card__content">
+                                                    <div>
+                                                        <div class="card__title u-unauthenticated">
+                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-2.html"  >
+                                                                <h5>Classic Indian Curries with Vidya Bhandarkar</h5>
+                                                            </a>
+                                                        </div>
+                                                        <div class="card__title u-authenticated">
+                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-2.html"  >
+                                                                <h5>Classic Indian Curries with Vidya Bhandarkar</h5>
+                                                            </a>
+                                                        </div>
+                                                        <div class="card__description">
+                                                            <p>Come and join us for an evening with our very own Indian food 
+                                                                guru, Vidya Bhandarkar. This class you do not want to miss out on.
+                                                                She will bring some classic curries to life through her vibrant cooking and spice-blending followed by some story-telling.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card__bottom u-unauthenticated">
+                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-2.html" class="btn btn-lg btn-success">View Here</a>
+                                                    </div>
+                                                    <div class="card__bottom u-authenticated">
+                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-2.html" class="btn btn-lg btn-success">View Here</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div> -->
+
+                                        <div class="promapp-aem-result card__container eq-height box-container" >
+                                            <div >
+                                            <div class="card col-md-9 col-sm-8 col-xs-5 moreBox" *ngFor="let recipe of recipes | filter:searchText" style="padding:0px;" >
+                                              <div class="card__image__wrapper">
+                                                <img src={{recipe.image}} alt={{recipe.recipe}}
+                                                  class="card__image__wrapper-top img img-fluid" />
+                                              </div>
+                                              <div class="card__content">
+                                                <div>
+                                                  <div class="card__title u-unauthenticated">
+                                                    <a
+                                                      href="/recipesDetails">
+                                                      <h5>{{recipe.recipe}}</h5>
+                                                    </a>
+                                                  </div>
+                                                  <!-- <div class="card__title u-authenticated">
+                                                    <a
+                                                      href="/content/innovators-food/en/home/recipes/recipes-parent-41/Sweettoasttoppers.html">
+                                                      <h5>{{recipe.recipe}}</h5>
+                                                    </a>
+                                                  </div> -->
+                                                  <div class="card__description">
+                                                    <p>
+                                                      {{recipe.description}}
+                                                    </p>
+                                                  </div>
+                                                </div>
+                                                <div class="card__bottom u-unauthenticated">
+                                                  <a href="/news-items"
+                                                    class="btn btn-lg btn-success">
+                                                    View Here
+                                                  </a>
+                                                </div>
+                                                <div class="card__bottom u-authenticated">
+                                                  <a href="/news-items"
+                                                    class="btn btn-lg btn-success">
+                                                  View Here
+                                                  </a>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          </div>
+                                    </div>
+                                    <div>
+                                        <div class="text-center">
+                                            <input type="button" id="btnLoadMorePromap" class="load-more btn btn-outline-success"
+                                              (click)="searchCall('loadmore');" value="See More" style="visibility: visible;" />
+                                          </div>
+                                    </div>
+                                    <div class="search-spinner text-center">
+                                        <i class="fa fa-spinner fa-spin" style="display: none;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <script>
+                    var searchPath = '/content/innovators-food/en/home/cooking-school/cooking-classes';
+                    var displayCount = '3';
+                    var promappTagPath = '/etc/tags';
+                    var promappImagePath = 'View Here';
+                    var emptyMsgAEMPromapp = '';
+                    var aemSearchCheck = 'true';
+                    var promappSearchCheck = '';
+                    var pageCountPromapp = '5';
+                    var placeholderImagePath = '../../../assets/images/search-result-placeholder.png';
+                    var articlebuttonLabel = 'View Here';
+                    var unAuthNote = 'You will need to login to see this page';
+                </script> -->
+            </div>
+        </div>
+    </div>
+</div>

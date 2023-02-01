@@ -1,0 +1,172 @@
+@media (max-width: 992px){
+.xsmall-container {
+    padding: 0 5%;
+}
+}
+.xsmall-container {
+    padding: 10px 10%;
+}
+.is-unauthenticated .u-authenticated {
+    display: none !important;
+}
+.img-fluid,.cq-dd-image{display:block;max-width:100%;width:100%;height:auto}
+.image-width-full{width:100%}
+.background-cover{background-size:cover !important}
+.h_100{height:100%}
+.flex-row{display:flex;flex-direction:row}
+.flex-column{display:flex;flex-direction:column}
+.flex-column-reverse{display:flex;flex-direction:column-reverse}
+.flex-row-reverse{display:flex;flex-direction:row-reverse}
+@media only screen and (min-width:320px) and (max-width:767px){.mob-flex-row{-ms-flex-direction:row !important;flex-direction:row !important}
+.mob-flex-row-reverse{-ms-flex-direction:row-reverse !important;flex-direction:row-reverse !important}
+.mob-flex-column{-ms-flex-direction:column !important;flex-direction:column !important}
+.mob-flex-column-reverse{-ms-flex-direction:column-reverse !important;flex-direction:column-reverse !important}
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+a {
+    color: #050505;
+    font-family: Montserrat-Medium;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.text-center {
+    text-align: center;
+}
+.small-container {
+    padding: 20px 20%;
+}
+.text-center {
+    text-align: center;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.img-fluid, .cq-dd-image {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+.xlarge-container {
+    padding: 40px 40%;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.text-center {
+    text-align: center;
+}
+.text-center {
+    text-align: center;
+}
+body {
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.65;
+    letter-spacing: normal;
+    color: var(--black);
+    margin: 10px 0;
+}
+.mc-field-group {
+    margin-bottom: 20px;
+}
+#mc_embed_signup .mc-field-group #mce-EMAIL {
+    height: 65px;
+    background-color: #f6f2f1;
+    font-size: 20px;
+    width: 100%;
+    padding: 0 10px;
+    border: 0;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+#mc_embed_signup #mc-embedded-subscribe {
+    vertical-align: top;
+}
+#mc_embed_signup .button {
+    height: 65px;
+    background-color: #000;
+    background-image: none;
+    font-size: 20px;
+    padding: 15px 25px;
+    color: #fff;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    line-height: normal;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+.xxsmall-container{padding:10px 5%}
+.xsmall-container{padding:10px 10%}
+.small-container{padding:20px 20%}
+.medium-container{padding:25px 25%}
+.large-container{padding:30px 30%}
+.xlarge-container{padding:40px 40%}
+@media(max-width:992px){.xsmall-container{padding:0 5%}
+.small-container{padding:0 10%}
+.medium-container{padding:0 15%}
+.large-container{padding:0 20%}
+.xlarge-container{padding:0 25%}
+}
+@media(max-width:600px){.xsmall-container{padding:0 3%}
+.small-container{padding:0 5%}
+.medium-container{padding:0 10%}
+.large-container{padding:0 15%}
+.xlarge-container{padding:0 20%}
+}
+@media(max-width:767px){.margin-top-20-percent{margin-top:0}
+}

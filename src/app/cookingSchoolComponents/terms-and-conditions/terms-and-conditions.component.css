@@ -1,0 +1,21 @@
+
+
+ a {color:#050505 !important;font-family:Montserrat-Medium !important;text-decoration:none;cursor:pointer}
+ a:hover,a:focus{color:#050505;font-family:Montserrat-SemiBold !important;text-decoration:none}
+   
+
+.image-banner-overlay {
+    position: relative;
+}
+
+.xsmall-container {
+    padding: 10px 10%;
+}
+
+
+.is-unauthenticated .u-unauthenticated {
+    display: block !important;
+}
+.u-unauthenticated {
+    display: none;
+}

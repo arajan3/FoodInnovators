@@ -1,0 +1,36 @@
+[
+    {
+        "profilePic": "../../../assets/images/1578627877267.png",
+        "ChefName": "BAZIL STANDER",
+        "position": "Executive Innovation Chef",
+        "descrition": "Bazil leads our team of Innovation Chefs and is consumed by his passion for Restaurants, Food, Chef’s and Cook Books - he is always searching for the latest food news and is our go to guy for the latest and most exciting food trends. "
+    },
+    {
+        "profilePic": "../../../assets/images/1622774023466.png",
+        "ChefName": "TIFFANY CROUCH",
+        "position": "Innovation Chef",
+        "descrition": "Tiffany is our whizz kid dessert & cake guru!  Tiffany had worked in restaurants, bakeries & food retail all over the world!  Tiffany loves developing exciting new products and seeing them come to life on shelf! She is addicted to gelato and loves creating outrageously delicious cakes & desserts!"
+    },
+    {
+        "profilePic": "../../../assets/images/1622774444261.png",
+        "ChefName": "RICHARD ZHENG",
+        "position": "Innovation Chef",
+        "descrition": "Richard is a passionate chef & foodie  with diverse experience in food retail & hospitality. Richards is our Asian cuisine expert & his favourite cuisine is Vietnamese -  you’ll often find him in Cabramatta trawling the local restaurants. His absolute favourite thing to cook and eat is pork belly."
+    },
+    {
+        "profilePic":"../../../assets/images/1578810713416.jpeg",
+        "ChefName": "JEREMY CHEYNE",
+        "position": "Innovation Chef",
+        "descrition": ""
+    }, {
+        "profilePic":"../../../assets/images/1578810713416.jpeg",
+        "ChefName": "AMANDA KWIEZ",
+        "position": "Kitchen Manager",
+        "descrition": "Amanda is our Superstar kitchen manager who makes sure our amazing innovation kitchens operate seamlessly! Amanda has experience cooking in various kitchens across Australia and overseas -  Her favourite home-cooked meal is roast chicken which she could eat every night!"
+    }, {
+        "profilePic": "../../../assets/images/1622774578422.jpeg",
+        "ChefName": "CHARLENE PRETORIUS",
+        "position": "Innovation Chef",
+        "descrition": "Charlene is the creative & energetic manager of our wildly popular cooking school. She is a passionate chef and has varied experience across food retail & restaurants. Charlene is currently obsessed with Fermentation and loves making vinegars and healthy ferments! Charlene is also an accomplished Food Stylist."
+    }
+]

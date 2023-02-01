@@ -1,0 +1,50 @@
+<div class="background-container parbase"> 
+    
+    <div class="custom-bgcolor xsmall-container image-banner-overlay highlight-on-hover  "style="background-image: url(/content/dam/food-innovators/yellow-xxtall-bg.png);background-size:100%;background-color:transparent;padding-top:100px;padding-bottom:20px;"> 
+     <div class="par parsys"> 
+      <div class="text-extended-auth-unauth section"> 
+       <div class="u-authenticated"> 
+        <h4 style="text-align: center;">ABOUT</h4> 
+        <h2 style="text-align: center;">Meet The Team&nbsp;</h2> 
+        <h1>&nbsp;</h1> 
+       </div> 
+       <!-- <div class="u-unauthenticated"> 
+        <h4 style="text-align: center;">ABOUT</h4> 
+        <h2 style="text-align: center;">Meet The Team</h2> 
+        <h2 style="text-align: center;">&nbsp;</h2> 
+       </div>  -->
+      </div> 
+      <div class="bootstrapcolCtrlAdvanced section"> 
+        <div *ngFor="let videoDetail of VideoDetails">
+       <!-- <div class="col-row    " id="column-1603">  -->
+        
+
+        <div class=" col-lg- col-md-4 col-sm-6 col-xs-12 col-12 no-margin" style="padding-bottom: 5rem;"> 
+         <div class="columns1 parsys"> 
+          <div class="textimage-extended textimage parbase section"> 
+           <div style="float:none" class="image text-center none" id="cq-textimage-jsp-/content/innovators-food/en/home/what-we-do/meet-the-team/jcr:content/par-full-width-body/background_container_1336256280/par/bootstrapcolctrladva/columns1/textimage_extended_1179080179"> 
+            <img src={{videoDetail.profilePic}} alt="meet the team" title="MEET THE TEAM" class="cq-dd-image none img-circle img-responsive"> 
+            <br> 
+           </div> 
+   
+           <div class="text text-body  cq-dd-image"> 
+            <h3 style="text-align: center;">{{videoDetail.ChefName}}</h3> 
+            <h4 style="text-align: center;">{{videoDetail.position}}</h4> 
+            <p style="text-align: center;">{{videoDetail.descrition}}&nbsp;</p> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+         </div> 
+        </div> 
+      </div>
+       <!-- </div>  -->
+       <div style="clear:both"></div> 
+      </div> 
+      <div class="text parbase section"> 
+       <link rel="stylesheet" href="/etc.clientlibs/wcm/foundation/clientlibs/accessibility.min.css" type="text/css"> 
+       <p>&nbsp;</p> 
+       <p>&nbsp;</p> 
+      </div> 
+     </div> 
+    </div> 
+   </div>

@@ -1,0 +1,26 @@
+[
+    {
+    "image":"../../../assets/images/chilliconcarnemeatballs.jpeg",
+    "Head":"Chilli Con Carne Meatballs",
+    "subHead":"",
+    "steps":["For Meatballs","To Finish"],
+    "Ingredients":[["500g beef mince",
+                    "1 long red chilli finely diced",
+                    "4 tbsp bread crumbs",
+                    "3/4 tsp cumin ground"
+                ],["2 red capsicum 2cm diced ",
+                "1 red onion 2cm diced",
+                "1 pack spaghetti"
+                ]
+      ],
+
+                    
+    "method":["For meatballs- In a bowl, combine all ingredients and mix well. Roll into 12 balls. Set aside",
+                "For the chilli con carne heat saucepan on medium heat with 2 tbsp of  olive oil with brown onion, carrot, celery and saute till soft. Then add garlic and chilli and saute for further 2 minutes, add in your oregano, tomato paste, chopped tomato and passata. Cook for 10-15 minutes until the sauce is nice and thick. Strain your kidney beans and add along with water, brown sugar to cook for a further 10 min, set aside. "],
+        "prepTime":"15 minutes",
+    "cookTime":"30 minutes",
+    "makes":"Serves 2 "
+   
+
+}
+]

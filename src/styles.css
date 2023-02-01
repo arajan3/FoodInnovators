@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('./assets/fonts/Montserrat-Regular.otf');
+  }
+  @font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('./assets/fonts/Montserrat-Medium.otf');
+  }
+
+  @font-face {
+    font-family: 'Montserrat-Light';
+    src: url('./assets/fonts/Montserrat-Light.otf');
+  }
+
+  @font-face {
+    font-family: 'Montserrat-MediumItalic';
+    src: url('./assets/fonts/Montserrat-MediumItalic.otf');
+  }
+
+  @font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('./assets/fonts/Montserrat-SemiBold.otf');
+  }
+  @font-face {
+    font-family: 'Montserrat-Thin';
+    src: url('./assets/fonts/Montserrat-Thin.otf');
+  }
+
+
+  a{color:#050505;font-family:Montserrat-Medium;text-decoration:none;cursor:pointer}
+a:hover,a:focus{color:#050505;font-family:Montserrat-SemiBold;text-decoration:none}
+
+
+
+/* @import './assets/css/clientlibs.min.1.0.101.css'; */
+/* @import './assets/css/innovatorsfood.min.1.0.101.css'; */
+
+@import './assets/css/promapp-aem-clientlibs.min.1.0.101.css';
+@import './assets/css/bootstarps.css';
+@import './assets/css/topnavigation.css';
+
+
+

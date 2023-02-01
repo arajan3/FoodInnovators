@@ -1,0 +1,104 @@
+.background-cover {
+    background-size: cover !important;
+}
+.textimage {
+    position: relative;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.no-gutters>.col, .no-gutters>[class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+@media (min-width: 992px){
+.col-md-12 {
+    width: 100%;
+}
+}
+.card__title {
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    padding-top: 10px;
+    font-weight: 700;
+}
+.image-width-full {
+    width: 100%;
+}
+
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+
+.is-unauthenticated .u-unauthenticated {
+    display: block !important;
+}
+@media (max-width: 992px){
+.xlarge-container {
+    padding: 0 25%;
+}
+}
+.xlarge-container {
+    padding: 40px 40%;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.no-gutters>.col, .no-gutters>[class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+a {
+    color: #050505;
+    font-family: Montserrat-Medium;
+    text-decoration: none;
+    cursor: pointer;
+}
+.xxsmall-container{padding:10px 5%}
+.xsmall-container{padding:10px 10%}
+.small-container{padding:20px 20%}
+.medium-container{padding:25px 25%}
+.large-container{padding:30px 30%}
+.xlarge-container{padding:40px 40%}
+@media(max-width:992px){.xsmall-container{padding:0 5%}
+.small-container{padding:0 10%}
+.medium-container{padding:0 15%}
+.large-container{padding:0 20%}
+.xlarge-container{padding:0 25%}
+}
+@media(max-width:600px){.xsmall-container{padding:0 3%}
+.small-container{padding:0 5%}
+.medium-container{padding:0 10%}
+.large-container{padding:0 15%}
+.xlarge-container{padding:0 20%}
+}
+@media(max-width:767px){.margin-top-20-percent{margin-top:0}
+}
+
+
+
+
+.u-authenticated{display:none}
+.mobile-only{display:none;height:0;width:0}
+.desktop-only{display:block;}
+@media(max-width:991px){.desktop-only{display:none;height:0;width:0}
+.mobile-only{display:block;height:auto;width:auto}
+}
