@@ -1,11 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule ,CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
-import { SlickCarouselModule } from 'ngx-slick-carousel';
-import { SwiperModule } from 'swiper/angular';
-
-// import Swiper core and required modules
-import SwiperCore, { Pagination, Navigation } from "swiper";
-
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { Pipe } from '@angular/core';
@@ -90,16 +84,12 @@ import { FoodiesWorkshopComponent } from './whatWeDoComponents/foodies-workshop/
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SlickCarouselModule,
-    SwiperModule,
-   
-  
     FormsModule,
-    //Ng2SearchPipeModule,
+  
    ReactiveFormsModule,
-    // Pipe
-  ],
 
+  ],
+schemas:[CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -72,281 +72,62 @@
                             </div>
                             <div class="page-list-component articleWidget section">
                                 <div>
-                                    <div class="container card__container enableSlick slick-initialized slick-slider" data-slick="{&quot;slidesToShow&quot;: 3, &quot;slidesToScroll&quot;: 1, &quot;centerMode&quot; : true, &quot;speed&quot; : 300, &quot;dots&quot; : false, &quot;autoplay&quot;: false, &quot;centerPadding&quot; : &quot;0&quot; }">
-                                        <button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>
-                                        <div class="slick-list draggable" style="padding: 0px;">
-                                            <div class="slick-track" style="opacity: 1; width: 3808px; transform: translate3d(-816px, 0px, 0px);">
-                                                <div class="card slick-slide slick-cloned" data-slick-index="-4" aria-hidden="true" style="width: 252px;" tabindex="-1">
-                                                    <div class="card__image__wrapper">
-                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-13.html" tabindex="-1">
-                                                            <img src="../../../assets/images/75Greek%20Cooking%20Class%20-%20March%202020.png" alt="Greek Cooking Class" class="card__image__wrapper-top img img-fluid">
-                                                        </a>
+                                    <div>
+                                        <div class="">
+
+                                            <button class="prevButton slick-prev" (click)="prev()">
+                                                L
+                                            </button>
+                                            <button class="nextButton slick-next" (click)="prev()">
+                                                R
+                                            </button>
+                                        <div class="  container card__container  draggable" style="padding: 0px;">
+                                            
+                                                <swiper-container slides-per-view="3" space-between="0" navigation="true" loop="true" navigation-prev-el=".prevButton" navigation-next-el=".nextButton"  centerMode = "true">
+                                                    <swiper-slide class=" eq-height box-container"  *ngFor="let cardItem of Cardetails">
+                                                        <!-- <div class="cardContainer">
+                                                            <div class="cardImage">
+                                            
+                                                            </div>
+                                                            <div class="cardBody">
+                                                                <h3>
+                                                                    {{card.title}}
+                                                                </h3>
+                                                                <p>
+                                                                    {{card.description}}
+                                                                </p>
+                                                            </div>
+                                                        </div> -->
+                                            
+                                                    <div class="card"> 
+                                                        <div class="card__image__wrapper"> 
+                                                            <a href=" -12.html" > <img src={{cardItem.image}}  alt={{cardItem.Head}} class="card__image__wrapper-top img img-fluid"> </a> 
+                                                           </div> 
+                                                           <div class="card__content" > 
+                                                            <div class="card__title"> 
+                                                             <a href=" -12.html" > <h5>{{cardItem.Head}}</h5> </a> 
+                                                            </div> 
+                                                            <div class="card__description flexible"> 
+                                                             <p> {{cardItem.description}} </p> 
+                                                            </div> 
+                                                            <div class="card__bottom"> 
+                                                             <a href=" -12.html" class="btn btn-lg btn-success">Click here for info</a> 
+                                                            </div> 
+                                                           </div> 
+                                                          </div>
+                                            
+                                            
+                                                      
+                                            
+                                                    </swiper-slide>
+                                                </swiper-container>
+                                          
                                                     </div>
-                                                    <div class="card__content" style="height: 257.562px;">
-                                                        <div class="card__title">
-                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-13.html" tabindex="-1">
-                                                                <h5>Greek Cooking Class</h5>
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__description">
-                                                            <p>
-                                                                Come and cook up a Greek feast with us and experience the Mediterranean flavours of authentic Greek food on a table. You will learn how to make those ...
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" style="width: 252px;" tabindex="-1">
-                                                    <div class="card__image__wrapper">
-                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-12.html" tabindex="-1">
-                                                            <img src="../../../assets/images/75Lunchbox%20Ideas.png" alt="Kids Lunchbox Ideas Class" class="card__image__wrapper-top img img-fluid">
-                                                        </a>
-                                                    </div>
-                                                    <div class="card__content" style="height: 257.562px;">
-                                                        <div class="card__title">
-                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-12.html" tabindex="-1">
-                                                                <h5>Kids Lunchbox Ideas Class</h5>
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__description">
-                                                            <p>
-                                                                Do you want to do something fun during the school holidays? Come and let us teach you how to make easy and exciting recipes to go into your lunch boxe...
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" style="width: 252px;" tabindex="-1">
-                                                    <div class="card__image__wrapper">
-                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-10.html" tabindex="-1">
-                                                            <img src="../../../assets/images/75resizekids%20xmascooking%2019_o.png" alt="Kids Christmas Class" class="card__image__wrapper-top img img-fluid">
-                                                        </a>
-                                                    </div>
-                                                    <div class="card__content" style="height: 257.562px;">
-                                                        <div class="card__title">
-                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-10.html" tabindex="-1">
-                                                                <h5>Kids Christmas Class</h5>
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__description">
-                                                            <p>
-                                                                Christmas is COMING! What better way to get ready for the holidays, than to come and learn new festive recipes and tips in our cooking school.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card slick-slide slick-cloned slick-active" data-slick-index="-1" aria-hidden="false" style="width: 252px;" tabindex="-1">
-                                                    <div class="card__image__wrapper">
-                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-9.html" tabindex="0">
-                                                            <img src="../../../assets/images/75xmasclass.jpg" alt="Christmas Cooking Class" class="card__image__wrapper-top img img-fluid">
-                                                        </a>
-                                                    </div>
-                                                    <div class="card__content" style="height: 257.562px;">
-                                                        <div class="card__title">
-                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-9.html" tabindex="0">
-                                                                <h5>Christmas Cooking Class</h5>
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__description">
-                                                            <p>
-                                                                Get inspired with festive new ideas to make Christmas unIque and memorable!
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card slick-slide slick-current slick-active slick-center" data-slick-index="0" aria-hidden="false" style="width: 252px;" tabindex="0">
-                                                    <div class="card__image__wrapper">
-                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-14.html" tabindex="0">
-                                                            <img src="../../../assets/images/75pastaclass.jpg" alt="Pasta Making Class" class="card__image__wrapper-top img img-fluid">
-                                                        </a>
-                                                    </div>
-                                                    <div class="card__content" style="height: 257.562px;">
-                                                        <div class="card__title">
-                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-14.html" tabindex="0">
-                                                                <h5>Pasta Making Class</h5>
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__description">
-                                                            <p>
-                                                                Join us with some Italian flair in the kitchen as we show you how to make pasta from scratch and how to add different flavour profiles. You will learn...
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 252px;" tabindex="0">
-                                                    <div class="card__image__wrapper">
-                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-13.html" tabindex="0">
-                                                            <img src="../../../assets/images/75Greek%20Cooking%20Class%20-%20March%202020.png" alt="Greek Cooking Class" class="card__image__wrapper-top img img-fluid">
-                                                        </a>
-                                                    </div>
-                                                    <div class="card__content" style="height: 257.562px;">
-                                                        <div class="card__title">
-                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-13.html" tabindex="0">
-                                                                <h5>Greek Cooking Class</h5>
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__description">
-                                                            <p>
-                                                                Come and cook up a Greek feast with us and experience the Mediterranean flavours of authentic Greek food on a table. You will learn how to make those ...
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card slick-slide" data-slick-index="2" aria-hidden="true" style="width: 252px;" tabindex="0">
-                                                    <div class="card__image__wrapper">
-                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-12.html" tabindex="-1">
-                                                            <img src="../../../assets/images/75Lunchbox%20Ideas.png" alt="Kids Lunchbox Ideas Class" class="card__image__wrapper-top img img-fluid">
-                                                        </a>
-                                                    </div>
-                                                    <div class="card__content" style="height: 257.562px;">
-                                                        <div class="card__title">
-                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-12.html" tabindex="-1">
-                                                                <h5>Kids Lunchbox Ideas Class</h5>
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__description">
-                                                            <p>
-                                                                Do you want to do something fun during the school holidays? Come and let us teach you how to make easy and exciting recipes to go into your lunch boxe...
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card slick-slide" data-slick-index="3" aria-hidden="true" style="width: 252px;" tabindex="-1">
-                                                    <div class="card__image__wrapper">
-                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-10.html" tabindex="-1">
-                                                            <img src="../../../assets/images/75resizekids%20xmascooking%2019_o.png" alt="Kids Christmas Class" class="card__image__wrapper-top img img-fluid">
-                                                        </a>
-                                                    </div>
-                                                    <div class="card__content" style="height: 257.562px;">
-                                                        <div class="card__title">
-                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-10.html" tabindex="-1">
-                                                                <h5>Kids Christmas Class</h5>
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__description">
-                                                            <p>
-                                                                Christmas is COMING! What better way to get ready for the holidays, than to come and learn new festive recipes and tips in our cooking school.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card slick-slide" data-slick-index="4" aria-hidden="true" style="width: 252px;" tabindex="-1">
-                                                    <div class="card__image__wrapper">
-                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-9.html" tabindex="-1">
-                                                            <img src="../../../assets/images/75xmasclass.jpg" alt="Christmas Cooking Class" class="card__image__wrapper-top img img-fluid">
-                                                        </a>
-                                                    </div>
-                                                    <div class="card__content" style="height: 257.562px;">
-                                                        <div class="card__title">
-                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-9.html" tabindex="-1">
-                                                                <h5>Christmas Cooking Class</h5>
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__description">
-                                                            <p>
-                                                                Get inspired with festive new ideas to make Christmas unIque and memorable!
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card slick-slide slick-cloned" data-slick-index="5" aria-hidden="true" style="width: 252px;" tabindex="-1">
-                                                    <div class="card__image__wrapper">
-                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-14.html" tabindex="-1">
-                                                            <img src="../../../assets/images/75pastaclass.jpg" alt="Pasta Making Class" class="card__image__wrapper-top img img-fluid">
-                                                        </a>
-                                                    </div>
-                                                    <div class="card__content" style="height: 257.562px;">
-                                                        <div class="card__title">
-                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-14.html" tabindex="-1">
-                                                                <h5>Pasta Making Class</h5>
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__description">
-                                                            <p>
-                                                                Join us with some Italian flair in the kitchen as we show you how to make pasta from scratch and how to add different flavour profiles. You will learn...
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card slick-slide slick-cloned slick-center" data-slick-index="6" aria-hidden="true" style="width: 252px;" tabindex="-1">
-                                                    <div class="card__image__wrapper">
-                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-13.html" tabindex="-1">
-                                                            <img src="../../../assets/images/75Greek%20Cooking%20Class%20-%20March%202020.png" alt="Greek Cooking Class" class="card__image__wrapper-top img img-fluid">
-                                                        </a>
-                                                    </div>
-                                                    <div class="card__content" style="height: 257.562px;">
-                                                        <div class="card__title">
-                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-13.html" tabindex="-1">
-                                                                <h5>Greek Cooking Class</h5>
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__description">
-                                                            <p>
-                                                                Come and cook up a Greek feast with us and experience the Mediterranean flavours of authentic Greek food on a table. You will learn how to make those ...
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card slick-slide slick-cloned" data-slick-index="7" aria-hidden="true" style="width: 252px;" tabindex="-1">
-                                                    <div class="card__image__wrapper">
-                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-12.html" tabindex="-1">
-                                                            <img src="../../../assets/images/75Lunchbox%20Ideas.png" alt="Kids Lunchbox Ideas Class" class="card__image__wrapper-top img img-fluid">
-                                                        </a>
-                                                    </div>
-                                                    <div class="card__content" style="height: 257.562px;">
-                                                        <div class="card__title">
-                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-12.html" tabindex="-1">
-                                                                <h5>Kids Lunchbox Ideas Class</h5>
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__description">
-                                                            <p>
-                                                                Do you want to do something fun during the school holidays? Come and let us teach you how to make easy and exciting recipes to go into your lunch boxe...
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card slick-slide slick-cloned" data-slick-index="8" aria-hidden="true" style="width: 252px;" tabindex="-1">
-                                                    <div class="card__image__wrapper">
-                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-10.html" tabindex="-1">
-                                                            <img src="../../../assets/images/75resizekids%20xmascooking%2019_o.png" alt="Kids Christmas Class" class="card__image__wrapper-top img img-fluid">
-                                                        </a>
-                                                    </div>
-                                                    <div class="card__content" style="height: 257.562px;">
-                                                        <div class="card__title">
-                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-10.html" tabindex="-1">
-                                                                <h5>Kids Christmas Class</h5>
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__description">
-                                                            <p>
-                                                                Christmas is COMING! What better way to get ready for the holidays, than to come and learn new festive recipes and tips in our cooking school.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="card slick-slide slick-cloned" data-slick-index="9" aria-hidden="true" style="width: 252px;" tabindex="-1">
-                                                    <div class="card__image__wrapper">
-                                                        <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-9.html" tabindex="-1">
-                                                            <img src="../../../assets/images/75xmasclass.jpg" alt="Christmas Cooking Class" class="card__image__wrapper-top img img-fluid">
-                                                        </a>
-                                                    </div>
-                                                    <div class="card__content" style="height: 257.562px;">
-                                                        <div class="card__title">
-                                                            <a href="/content/innovators-food/en/home/cooking-school/cooking-classes/news-item-9.html" tabindex="-1">
-                                                                <h5>Christmas Cooking Class</h5>
-                                                            </a>
-                                                        </div>
-                                                        <div class="card__description">
-                                                            <p>
-                                                                Get inspired with festive new ideas to make Christmas unIque and memorable!
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                            
+                                       
 
 
-                                        <button class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button>
+                                    </div>
                                     </div>
                                 </div>
                             </div>

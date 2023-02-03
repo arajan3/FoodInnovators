@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+const daatSource = require("../../../assets/json/cookingClassDetails.json");
 
 @Component({
   selector: 'app-cooking-classes-main-view',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./cooking-classes-main-view.component.css']
 })
 export class CookingClassesMainViewComponent {
+  Cardetails: any;
 
+  ngOnInit(): void {
+    this.Cardetails = daatSource;
+  }
 }

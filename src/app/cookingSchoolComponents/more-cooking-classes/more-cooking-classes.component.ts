@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-const licenseDocs = require("../../../assets/json/cookingClassDetails.json");
+const daatSource = require("../../../assets/json/cookingClassDetails.json");
 
 @Component({
   selector: 'app-more-cooking-classes',
@@ -7,9 +7,9 @@ const licenseDocs = require("../../../assets/json/cookingClassDetails.json");
   styleUrls: ['./more-cooking-classes.component.css']
 })
 export class MoreCookingClassesComponent {
-  VideoDetails:any;
+  Cardetails: any;
+
   ngOnInit(): void {
-    console.log(licenseDocs)
-this.VideoDetails=licenseDocs;
+    this.Cardetails = daatSource;
   }
 }

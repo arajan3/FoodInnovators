@@ -1,132 +1,79 @@
 
+<div class="background-container parbase"> 
+    <div class="custom-bgcolor  " style="background-color:transparent;padding-top:50px;padding-bottom:50px;padding-left:40px;padding-right:40px;"> 
+     <div class="par parsys"> 
+      <div class="text-extended-auth-unauth section"> 
+       <div class="u-authenticated"> 
+        <h4 style="text-align: center;">JOIN US</h4> 
+        <h2 style="text-align: center;">More Cooking Classes</h2> 
+       </div> 
+       <div class="u-unauthenticated"> 
+        <h4 style="text-align: center;">JOIN US</h4> 
+        <h2 style="text-align: center;">More Cooking Classes</h2> 
+       </div> 
+      </div> 
+      <div class="page-list-component articleWidget section"> 
+       <div>
+<div class="swiperAndThumbsContainer container card__container ">
+
+    <button class="prevButton slick-prev" (click)="prev()">
+        L
+    </button>
+    <button class="nextButton slick-next" (click)="prev()">
+        R
+    </button>
+  
+    <!-- swiper -->
+    
+    <swiper-container slides-per-view="3" space-between="0" navigation="true" loop="true" navigation-prev-el=".prevButton" navigation-next-el=".nextButton"  centerMode = "true">
+        <swiper-slide class=" eq-height box-container"  *ngFor="let cardItem of Cardetails">
+            <!-- <div class="cardContainer">
+                <div class="cardImage">
+
+                </div>
+                <div class="cardBody">
+                    <h3>
+                        {{card.title}}
+                    </h3>
+                    <p>
+                        {{card.description}}
+                    </p>
+                </div>
+            </div> -->
+
+        <div class="card"> 
+            <div class="card__image__wrapper"> 
+                <a href="/news-items" > <img src={{cardItem.image}}  alt={{cardItem.Head}} class="card__image__wrapper-top img img-fluid"> </a> 
+               </div> 
+               <div class="card__content" > 
+                <div class="card__title"> 
+                 <a href="/news-items" > <h5>{{cardItem.Head}}</h5> </a> 
+                </div> 
+                <div class="card__description flexible"> 
+                 <p> {{cardItem.description}} </p> 
+                </div> 
+                <div class="card__bottom"> 
+                 <a href="/news-items" class="btn btn-lg btn-success">Click here for info</a> 
+                </div> 
+               </div> 
+              </div>
 
 
+          
 
+        </swiper-slide>
+    </swiper-container>
 
-
-<div class="card__container">
- 
-    <swiper
-      [slidesPerView]="3"
-      [spaceBetween]="0"
-      [navigation]="true"
-      [pagination]="{ clickable: true }"
-      
-    >
-      <ng-template swiperSlide >
-        <div class="card"> 
-              
-          <div class="card__image__wrapper"> 
-         <a href=" -12.html" > <img src="../../../assets/images/75Lunchbox Ideas.png" alt="Kids Lunchbox Ideas Class" class="card__image__wrapper-top img img-fluid"> </a> 
-        </div> 
-        <div class="card__content" > 
-         <div class="card__title"> 
-          <a href=" -12.html" > <h5>Kids Lunchbox Ideas Class</h5> </a> 
-         </div> 
-         <div class="card__description"> 
-          <p> Do you want to do something fun during the school holidays? Come and let us teach you how to make easy and exciting recipes to go into your lunch boxe... </p> 
-         </div> 
-         <div class="card__bottom"> 
-          <a href=" -12.html" class="btn btn-lg btn-success">Click here for info</a> 
-         </div> 
-        </div> 
-       </div>
-      
-      </ng-template>
-      <ng-template swiperSlide>
-        <div class="card"> 
-              
-          <div class="card__image__wrapper"> 
-         <a href=" -12.html" > <img src="../../../assets/images/75Lunchbox Ideas.png" alt="Kids Lunchbox Ideas Class" class="card__image__wrapper-top img img-fluid"> </a> 
-        </div> 
-        <div class="card__content" > 
-         <div class="card__title"> 
-          <a href=" -12.html" > <h5>Kids Lunchbox Ideas Class</h5> </a> 
-         </div> 
-         <div class="card__description"> 
-          <p> Do you want to do something fun during the school holidays? Come and let us teach you how to make easy and exciting recipes to go into your lunch boxe... </p> 
-         </div> 
-         <div class="card__bottom"> 
-          <a href=" -12.html" class="btn btn-lg btn-success">Click here for info</a> 
-         </div> 
-        </div> 
-       </div>    </ng-template>
-      <ng-template swiperSlide>
-        <div class="card cardsStyle"> 
-              
-          <div class="card__image__wrapper"> 
-         <a href=" -12.html" > <img src="../../../assets/images/75Lunchbox Ideas.png" alt="Kids Lunchbox Ideas Class" class="card__image__wrapper-top img img-fluid"> </a> 
-        </div> 
-        <div class="card__content" > 
-         <div class="card__title"> 
-          <a href=" -12.html" > <h5>Kids Lunchbox Ideas Class</h5> </a> 
-         </div> 
-         <div class="card__description"> 
-          <p> Do you want to do something fun during the school holidays? Come and let us teach you how to make easy and exciting recipes to go into your lunch boxe... </p> 
-         </div> 
-         <div class="card__bottom"> 
-          <a href=" -12.html" class="btn btn-lg btn-success">Click here for info</a> 
-         </div> 
-        </div> 
-       </div>    </ng-template>
-      <ng-template swiperSlide>
-        <div class="card"> 
-              
-          <div class="card__image__wrapper"> 
-         <a href=" -12.html" > <img src="../../../assets/images/75Lunchbox Ideas.png" alt="Kids Lunchbox Ideas Class" class="card__image__wrapper-top img img-fluid"> </a> 
-        </div> 
-        <div class="card__content" > 
-         <div class="card__title"> 
-          <a href=" -12.html" > <h5>Kids Lunchbox Ideas Class</h5> </a> 
-         </div> 
-         <div class="card__description"> 
-          <p> Do you want to do something fun during the school holidays? Come and let us teach you how to make easy and exciting recipes to go into your lunch boxe... </p> 
-         </div> 
-         <div class="card__bottom"> 
-          <a href=" -12.html" class="btn btn-lg btn-success">Click here for info</a> 
-         </div> 
-        </div> 
-       </div>    </ng-template>
-      <ng-template swiperSlide>
-        <div class="card"> 
-              
-          <div class="card__image__wrapper"> 
-         <a href=" -12.html" > <img src="../../../assets/images/75Lunchbox Ideas.png" alt="Kids Lunchbox Ideas Class" class="card__image__wrapper-top img img-fluid"> </a> 
-        </div> 
-        <div class="card__content" > 
-         <div class="card__title"> 
-          <a href=" -12.html" > <h5>Kids Lunchbox Ideas Class</h5> </a> 
-         </div> 
-         <div class="card__description"> 
-          <p> Do you want to do something fun during the school holidays? Come and let us teach you how to make easy and exciting recipes to go into your lunch boxe... </p> 
-         </div> 
-         <div class="card__bottom"> 
-          <a href=" -12.html" class="btn btn-lg btn-success">Click here for info</a> 
-         </div> 
-        </div> 
-       </div>    </ng-template>
-      <ng-template swiperSlide>
-        <div class="card"> 
-              
-          <div class="card__image__wrapper"> 
-         <a href=" -12.html" > <img src="../../../assets/images/75Lunchbox Ideas.png" alt="Kids Lunchbox Ideas Class" class="card__image__wrapper-top img img-fluid"> </a> 
-        </div> 
-        <div class="card__content" > 
-         <div class="card__title"> 
-          <a href=" -12.html" > <h5>Kids Lunchbox Ideas Class</h5> </a> 
-         </div> 
-         <div class="card__description"> 
-          <p> Do you want to do something fun during the school holidays? Come and let us teach you how to make easy and exciting recipes to go into your lunch boxe... </p> 
-         </div> 
-         <div class="card__bottom"> 
-          <a href=" -12.html" class="btn btn-lg btn-success">Click here for info</a> 
-         </div> 
-        </div> 
-       </div>    </ng-template>
-    </swiper>
- 
+    
 
 </div>
 
 
-   
+<div class="more-link-group"> 
+    <a href="/content/innovators-food/en/home/cooking-school/cooking-classes.html" target="_self" class="btn btn-outline-success">See More Classes</a> 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+</div> 
+</div>

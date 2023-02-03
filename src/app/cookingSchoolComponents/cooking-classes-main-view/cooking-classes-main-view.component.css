@@ -589,7 +589,7 @@ h6{font-family:Montserrat-Light;font-size:16px;font-style:normal;font-stretch:no
 }
 .container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
 .card__container .card {
-width: 30%;
+/* width: 30%; */
 margin: 10px;
 display: flex;
 position: relative;
@@ -980,6 +980,18 @@ padding: 16px;
 .col-lg-offset-1{margin-left:8.33333333%}
 .col-lg-offset-0{margin-left:0}
 }
-
+.swiper-container{
+    border: 2px solid red;
+    width: 800px;
+    margin: 0;
+    justify-content: center;
+}
+    .swiper-slide{
+        
+        width: auto;
+    }
+    .container{
+        width: 100%;
+    }
 
 
